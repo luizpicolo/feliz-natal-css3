@@ -1,0 +1,136 @@
+@import "//fonts.googleapis.com/css?family=Mountains+of+Christmas";
+
+body {
+  margin: 50px auto;
+  background: #7abdc3;
+  width: 0;
+}
+
+.tree {  
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 35px solid #be771b;
+  box-shadow: 0px 35px 0px #eea826;
+}
+
+.tree:after {
+  content: '';
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 35px solid #7ec43f;
+  box-shadow: 0px 35px 0px #9cb22b;
+}
+
+.tree:before {
+  content: '';
+  position: absolute;
+  top: 35px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 35px solid #8c551f;
+  box-shadow: 0px 35px 0px #2a9748
+}
+
+.not-shadow-after:after {
+  box-shadow: none
+}
+
+.not-shadow:after, .not-shadow:before {
+  box-shadow: none
+}
+
+.not-shadow-before:before {
+   box-shadow: none
+}
+
+.first-position {
+  top: 35px;
+  left: -40px;
+}
+
+.second-position {
+  top: 0px;
+  left: 40px;
+}
+
+.third-position {
+  top: -35px;
+  left: 0px;
+}
+
+.fourth-position {
+  top: 0px;
+  left: -40px;
+}
+
+.quint-position {
+  top: -35px;
+  left: 0px;
+}
+
+.sixth-position {
+  top: -70px;
+  left: 40px;
+}
+
+.seventh-position {
+  top: -35px;
+  left: -80px;
+}
+
+.octave-position {
+  top: -70px;
+  left: -40px;
+}
+
+.ninth-position {
+  top: -105px;
+  left: 0px;
+}
+
+.tenth-position {
+  top: -140px;
+  left: 40px;
+}
+
+.eleventh-position {
+  top: -175px;
+  left: 80px;
+}
+
+p {
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 6em;
+  color: #d2592a;
+}
+
+p:before {
+  position: absolute;
+  content: 'Feliz';
+  left: 20%;
+  top: 100px;
+}
+
+p:after {
+  position: absolute;
+  content: 'Natal';
+  right: 15%;
+  top: 100px;
+}
+
+#fork {
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    border: 0;
+}
