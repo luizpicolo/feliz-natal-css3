@@ -34,7 +34,7 @@
     <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.luizpicolo.com.br%2Frepositorio%2Farquivos%2Ffeliz-natal%2F&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=180150632193242" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
     
     <!-- Este JS não foi criado por mim :D -->
-    <script src='http://projetos.jangal.com.br/natal/snowstorm.js'></script>
+    <script src='https://cdn.rawgit.com/scottschiller/Snowstorm/master/snowstorm.js'></script>
     <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
 </body>
 </html>
