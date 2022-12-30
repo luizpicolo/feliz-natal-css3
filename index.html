@@ -30,11 +30,16 @@
     <a href="http://github.com/sistemacode">
         <img id="fork" src="http://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub" />
     </a>
-    
-    <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.luizpicolo.com.br%2Frepositorio%2Farquivos%2Ffeliz-natal%2F&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=180150632193242" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
-    
+
     <!-- Este JS não foi criado por mim :D -->
-    <script src='https://cdn.rawgit.com/scottschiller/Snowstorm/master/snowstorm.js'></script>
-    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+    <script>
+		var sf = new Snowflakes({
+			color: "#bdf0ff",
+			count: 300,
+			minSize: 20,
+			maxSize: 50
+		});
+	</script>
 </body>
 </html>
